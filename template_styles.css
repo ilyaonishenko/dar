@@ -1,0 +1,261 @@
+html { width:100%; height: 100%; }
+
+body
+{
+	font-size: 80.01%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    background: url(images/background.jpg)
+}
+#head
+{
+    position: relative;
+}
+#top
+{
+    position: relative;
+    max-height: 30vh;
+    text-align: center;
+    z-index: 1;
+    margin-bottom:-31vh ;
+
+}
+#topimg
+{
+    position: relative;
+    max-width: 120vh;
+    max-height: 100vh;
+    width: 858px;
+    height: 414px;
+    min-width: 858px;
+    min-height: 414px;
+    margin: 0 auto;
+}
+#navigator
+{
+    position: relative;
+    max-height: 30vh;
+    text-align: center;
+    z-index: 2;
+
+
+}
+#navi
+{
+    position: relative;
+    width: 858px;
+    height: 464px;
+    min-width: 858px;
+    min-height: 464px;
+    bottom: 15px;
+}
+form { margin:0; padding:0;}
+form.main-form
+{ 
+	display: block;
+	margin:0; 
+	padding:0;
+	width:100%;
+	height:100%;
+}
+ 
+#page-wrapper
+{	
+	min-height:100%;	
+	/*width:878px;*/  
+	margin: 0 auto -90px;
+}
+
+* html #page-wrapper { height: 100%; }
+
+#header 
+{
+    height: 106px;
+    position: relative;
+    z-index: 10;
+    width:878px;
+    margin:0 auto;
+
+}
+#workarea
+{
+    position: relative;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -0.7vh;
+}
+
+#footer  
+{
+	background: #F5F5F5 url(images/footer-corner.gif) no-repeat left top;
+	height: 90px; 
+	width:878px; 
+	margin:0 auto;  
+	position: relative;
+}
+
+
+/* Product List */
+div.product-list 
+{ 
+	overflow: auto;
+	text-align: center;
+	z-index: 1;
+    width: 100vh;
+    margin: 0 auto;
+}
+div.product
+{ 
+	overflow: hidden; 
+	width: auto;
+	height: 15vh;
+	margin: 0 auto;
+    text-align: center;
+    margin-left: 30vh;
+}
+div.product-alt { margin-right: 0px;}
+div.product-image
+{
+	width: auto;
+	height: 15vh;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+div.product-overlay
+{
+	width: 50vh;
+	height: 15vh;
+	position: absolute;
+    text-align: center;
+	z-index: 1;	
+}
+a.product-desc
+{
+    position: absolute;
+    text-align: center;
+	height:5vh;
+	overflow:hidden;
+	width:20vh;
+	z-index:2;
+	font-size: 1em;
+	text-decoration: none;
+	padding:1vh 0.8vh 2.4vh 15vh;
+    margin-top: -13vh;
+    margin-left: -37vh;
+}
+#column
+{
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    bottom: 92vh;
+}
+
+#columns
+{
+    max-width: 860px;
+    max-height: 416px;
+    width: 860px;
+    height: 416px;
+    min-width: 860px;
+    min-height: 416px;
+}
+
+a.product-desc p { font-size: 0.85em; margin:7px 0 0;}
+
+/* News List */
+div.news-list { margin: 0 0 2em;}
+div.news-item { margin: 0 0 2em; padding: 0 0 2em; border-bottom: 1px solid; }
+div.news-date { margin: 0 0 1em;}
+div.news-title { font-size: 1em; margin: 0 0 1em;  font-weight: bold;}
+a.news-detail-link { display: block; margin: 1em 0 0; outline: none;}
+
+/* Catalog List */
+div.catalog-list, div.catalog-detail  { padding: 1em 0 0;}
+div.catalog-item { margin: 0 0 2em; padding: 0 0 2em; border-bottom: 1px solid; overflow: hidden; zoom: 1;}
+div.catalog-detail div.catalog-item { border: none; }
+div.catalog-item-title { margin: 0 0 1em;}
+div.catalog-item-title a { font-weight: bold; }
+
+div.catalog-item-image { float: left; margin: 0 1em 1em 0; border:1px solid; padding: 4px; }
+div.catalog-item-price {clear: left; float:left; padding: 0.5em 1em; margin:1em 0 0; font-weight: bold; }
+div.catalog-item-desc { clear: left; }
+div.catalog-item-desc-float { }
+div.catalog-item-properties { clear: both; padding: 1em 0 0;  overflow: hidden;}
+div.catalog-item-property { margin: 0 0 1em; border-bottom:1px dashed; float: left; width: 100%;}
+div.catalog-item-property b { float: right; position: relative; top: 0.31em; padding-left: 3px; font-style:italic; font-weight:normal; }
+div.catalog-item-property span { float: left; position: relative; top: 0.31em; padding-right: 3px; zoom: 1;}
+div.catalog-item-properties-title { font-size: 1em; font-weight: bold; margin: 2em 0 1em; }
+
+/* Special Product */
+div.special-product-title { text-align: center; margin: 0 0 1em;}
+div.special-product-image { text-align: center; margin: 0 0 1em;}
+div.special-product { text-align: center; }
+
+/* Top menu */
+#horizontal-multilevel-menu, #horizontal-multilevel-menu ul
+{
+	margin:0; padding:0;
+	min-height:27px;
+	width:100%;
+	list-style:none;
+	font-size:12px;
+	float:left;
+	background: none;
+}
+
+#horizontal-multilevel-menu a
+{
+	display:block;
+	padding:5px 3px;
+	text-decoration:none;
+	text-align:center;
+	outline: none;
+}
+
+#horizontal-multilevel-menu li { float:left; }
+#horizontal-multilevel-menu li a.root-item { font-weight:bold; padding:8px 12px 8px; } /*Root items*/
+#horizontal-multilevel-menu a.parent { background: url(images/top-menu-arrow.gif) center right no-repeat; } /*Item-parents*/
+#horizontal-multilevel-menu li a.root-item-selected { font-weight:bold; padding:8px 12px 8px; } /*Root menu selected*/
+#horizontal-multilevel-menu li.last-item { border: none; }
+
+/*Sub-menu box*/
+#horizontal-multilevel-menu li ul
+{
+	position:absolute;
+	top:auto;
+	display:none;
+	z-index:500;
+	height:auto;
+	width:163px;
+	padding: 3px 11px;
+	border:1px solid;
+}
+
+#horizontal-multilevel-menu li li { width:100%; border-bottom:1px solid; } /*Sub-menu item box*/
+#horizontal-multilevel-menu li ul a { text-align:left; font-size: 12px;} /*Item link*/
+#horizontal-multilevel-menu li ul ul { margin:-27px 0 0 160px; }
+
+#horizontal-multilevel-menu li:hover ul ul,
+#horizontal-multilevel-menu li:hover ul ul ul,
+#horizontal-multilevel-menu li:hover ul ul ul ul,
+#horizontal-multilevel-menu li:hover ul ul ul ul ul
+{
+	display:none;
+}
+
+#horizontal-multilevel-menu li:hover ul,
+#horizontal-multilevel-menu li li:hover ul,
+#horizontal-multilevel-menu li li li:hover ul,
+#horizontal-multilevel-menu li li li li:hover ul,
+#horizontal-multilevel-menu li li li li li:hover ul
+{
+	display:block;
+}
+
+div.menu-clear-left { clear:left; }
+
+/*Common Elements */
+div.content-form { padding-left:1em; }
